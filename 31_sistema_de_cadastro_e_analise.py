@@ -15,7 +15,8 @@ while True:
         area_de_interesse = input('Qual a aréa de interesse da participante: ')
         novo = {'Nome': nome, 'Idade': idade, 'Horas de estudo': horas_de_estudo, 'Area de interesse': area_de_interesse}
         participantes.append(novo)
-        print(participantes)
+        for p in participantes:
+          print(p)
         print('\n---------------------------------')
     
     elif menu == '2':
